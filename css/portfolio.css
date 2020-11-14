@@ -170,6 +170,7 @@ address {
   color: var(--black);
   background-color: var(--light-bg);
 }
+
 .menu {
   display: flex;
   margin-left: 93px;

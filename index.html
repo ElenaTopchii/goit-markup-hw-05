@@ -39,7 +39,18 @@
         <section class="hero dark-bg ">
             <div class="container hero-content">
                 <h1 class="title page-title">Эффективные решения для вашего бизнеса</h1>
-                <button class="btn">Заказать услугу</button>
+                <button class="btn" data-modal-open>Заказать услугу</button>
+
+                <div class="backdrop is-hidden" data-modal>
+                    <div class="modal">
+
+                        <button class="btn-close" data-modal-close>
+                            <svg class="modal-icon-svg">
+                                <use href="./icons/sprite.svg#icon-close-black-18dp"></use>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -86,14 +97,25 @@
             <div class="container">
                 <h2 class="title section-title">Чем мы занимаемся</h2>
                 <ul class="list work-list">
+
                     <li class="work-item">
-                        <a href=""><img src="./img/img-1.jpg" alt="" width="370"></a>
+                        <img src="./img/img-1.jpg" alt="" width="370">
+                        <div class="work-item-shadowbox">
+                            <p class="work-item-shadowbox-title">Десктопные приложения</p>
+                        </div>
                     </li>
+
                     <li class="work-item">
                         <a href=""><img src="./img/img-2.jpg" alt="" width="370"></a>
+                        <div class="work-item-shadowbox">
+                            <p class="work-item-shadowbox-title">Мобильные приложения</p>
+                        </div>
                     </li>
                     <li class="work-item">
                         <a href=""><img src="./img/img-3.jpg" alt="" width="370"></a>
+                        <div class="work-item-shadowbox">
+                            <p class="work-item-shadowbox-title">Дизайнерские решения</p>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -377,7 +399,7 @@
             <div class="footer-widget"></div>
         </div>
     </footer>
-
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>
