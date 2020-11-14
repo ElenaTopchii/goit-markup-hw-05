@@ -121,6 +121,8 @@ address {
 
 .link:hover,
 .link:focus {
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
   color: var(--accent-cl);
 }
 
@@ -341,16 +343,22 @@ section {
 
 .contact-item:hover,
 .contact-item:focus {
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
   fill: var(--accent-cl);
 }
 
 .contact-item:hover .mail-icon,
 .contact-item:focus .mail-icon {
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
   fill: var(--accent-cl);
 }
 
 .contact-item:hover .tel-icon,
 .contact-item:focus .tel-icon {
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
   fill: var(--accent-cl);
 }
 
@@ -515,11 +523,15 @@ section {
 
 .social-icons-link:hover,
 .social-icons-link:focus {
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
   background-color: var(--accent-cl);
 }
 
 .social-icons-link:hover .social-icons-svg,
 .social-icons-link:focus .social-icons-svg {
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
   fill: var(--white);
 }
 
@@ -556,11 +568,15 @@ section {
 
 .clients-icons-link:hover,
 .clients-icons-link:focus {
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
   border: 1px solid var(--accent-cl);
 }
 
 .clients-icons-link:hover .clients-icons-svg,
 .clients-icons-link:focus .clients-icons-svg {
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
   fill: var(--accent-cl);
 }
 
@@ -632,6 +648,8 @@ section {
 
 .social-icons-link-footer:hover,
 .social-icons-link-footer:focus {
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
   background-color: var(--accent-cl);
 }
 
